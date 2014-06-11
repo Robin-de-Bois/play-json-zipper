@@ -10,12 +10,12 @@ resolvers ++= Seq(
   "Mandubian repository releases" at "https://github.com/mandubian/mandubian-mvn/raw/master/releases/"
 )
 
-scalaVersion := "2.10.2"
+scalaVersion := "2.11.1"
 
 libraryDependencies ++= Seq(
-  "com.typesafe.play"   %% "play-json"  % "2.2.0"          ,
-  "org.specs2"          %% "specs2"     % "1.13"   % "test",
-  "junit"                % "junit"      % "4.8"    % "test"
+  "com.typesafe.play"   %% "play-json"  % "2.3.0"          ,
+  "org.specs2"          %% "specs2"     % "2.3.12"   % "test",
+  "junit"                % "junit"      % "4.11"    % "test"
 )
 
 publishMavenStyle := true
